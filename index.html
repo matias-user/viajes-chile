@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Prueba Fundamentos Web</title>
+</head>
+<body>
+    <header >
+        <ul class="nav justify-content-between container ">
+            <li class="nav-item" > 
+                <img style="width: 40px;" src="./assets/img/viajes.svg" class="img-fluid" alt="Logo">Viajes Chile
+            </li>
+            <div class="d-flex  flex-row-reverse">
+                <li class="nav-item align-self-end">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Quienes Somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Destacados</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" >Contacto</a>
+                </li>
+            </div>
+            
+        </ul>
+
+        <div id="carousel-mio" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+
+              <div class="carousel-item active">
+                <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-mio" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-mio" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <section class="container separar" >
+            <h2 class="text-white text-center " >¿Quienes somos?</h2>
+            <hr class="border-blue">
+
+            <div class="row d-none d-sm-flex">
+              <div class="col-4">
+                <div class="relleno text-center" >
+                  <i class="fas fa-plane"></i>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus doloremque cumque blanditiis? Repudiandae aperiam rerum non nesciunt nostrum sint similique ab! Quis dolores odio ullam molestias mollitia officia sit autem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis nisi reprehenderit sequi enim id corrupti quis perferendis? Ipsa
+                </p>
+              </div>
+              <div class="col-4">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus doloremque cumque blanditiis? Repudiandae aperiam rerum non nesciunt nostrum sint similique ab! Quis dolores odio ullam molestias mollitia officia sit autem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis nisi reprehenderit sequi enim id corrupti quis perferendis? Ipsa
+                </p>
+                <div class="relleno text-center" >
+                  <i class="fas fa-mountain"></i>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="relleno text-center" >
+                  <i class="fas fa-route"></i>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus doloremque cumque blanditiis? Repudiandae aperiam rerum non nesciunt nostrum sint similique ab! Quis dolores odio ullam molestias mollitia officia sit autem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis nisi reprehenderit sequi enim id corrupti quis perferendis? Ipsa
+                </p>
+              </div>
+
+            </div>
+          </section>
+
+          <section class="container " >
+            <h2 class="text-white text-center my-8" >Destacados</h2>
+            <hr class="border-blue">
+
+            <div class="row">
+              <div class="col-3">
+                <div class="card bg-blue border" style="width: 16rem;">
+                  <img src="./assets/img/card1.jpg" class="card-img-top img-altura" alt="imagen pasaje">
+                  <div class="card-body">
+                    <h5 class="card-title">sit amet consectetur</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam sequi aliquam quasi eum eaque iste eveniet. Excepturi est, ea, laudantium quaerat culpa doloremque iste molestiae corporis ratione quia repellat beatae.
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class=" card bg-blue border" style="width: 16rem;">
+                  <img src="./assets/img/card2.jpg" class="card-img-top img-altura" alt="imagen pasaje">
+                  <div class="card-body">
+                    <h5 class="card-title">Excepturi estr</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam sequi aliquam quasi eum eaque iste eveniet. Excepturi est, ea, laudantium quaerat culpa doloremque iste molestiae corporis ratione quia repellat beatae.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card  bg-blue border" style="width: 16rem;">
+                  <img src="./assets/img/card3.jpg" class="card-img-top img-altura" alt="imagen pasaje">
+                  <div class="card-body">
+                    <h5 class="card-title">ipsum dolo</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam sequi aliquam quasi eum eaque iste eveniet. Excepturi est, ea, laudantium quaerat culpa doloremque iste molestiae corporis ratione quia repellat beatae.
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card bg-blue border " style="width: 16rem;">
+                  <img src="./assets/img/card4.jpg" class="card-img-top img-altura" alt="imagen pasaje">
+                  <div class="card-body">
+                    <h5 class="card-title">eaque iste eveniet</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam sequi aliquam quasi eum eaque iste eveniet. Excepturi est, ea, laudantium quaerat culpa doloremque iste molestiae corporis ratione quia repellat beatae.
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </section>
+
+          <section class="container separar" >
+            <h2 class="text-white text-center " >Contacto</h2>
+            <hr class="border-blue">
+            <div data-tf-widget="CCYzDNsn" data-tf-iframe-props="title=My typeform" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>
+          </section>
+          <script src="./assets/js/bootstrap.min.js"></script>
+    </header>
+    
+</body>
+</html>
