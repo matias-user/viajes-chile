@@ -11,22 +11,22 @@
 </head>
 <body>
     <header >
-        <ul class="nav justify-content-between container ">
+        <ul class="nav fixed-top justify-content-between container ">
             <li class="nav-item" > 
                 <img style="width: 40px;" src="./assets/img/viajes.svg" class="img-fluid" alt="Logo">Viajes Chile
             </li>
-            <div class="d-flex  flex-row-reverse">
+            <div class="d-flex  flex-row-reverse ">
                 <li class="nav-item align-self-end">
-                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    <a class="nav-link text-white active" aria-current="page" href="#">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Quienes Somos</a>
+                    <a class="nav-link text-white" href="#quienes">Quienes Somos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Destacados</a>
+                    <a class="nav-link text-white" href="#">Destacados</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" >Contacto</a>
+                    <a class="nav-link text-white" href="#" >Contacto</a>
                 </li>
             </div>
             
@@ -55,7 +55,7 @@
             </button>
           </div>
 
-          <section class="container separar" >
+          <section class="container separar" id="quienes">
             <h2 class="text-white text-center " >¿Quienes somos?</h2>
             <hr class="border-blue">
 
@@ -151,9 +151,17 @@
           <script src="./assets/js/bootstrap.min.js"></script>
           </section>
 
-          <footer class="bg-blue w-100" >
-              <div class="container">
-                <h3>Viajes Chile</h3>
+          <footer class="bg-blue w-100 py-1" >
+              <div class="container d-flex justify-content-between">
+                <a  class="navbar-brand text-white fw-bold" >Viajes Chile</a>
+
+                <div>
+                  <i class="bi bi-github"></i>
+                  <i class="bi bi-linkedin"></i>
+                  <i class="bi bi-twitter"></i>
+                  <i class="bi bi-facebook"></i>
+                </div>
+                
               </div>
           </footer>
     

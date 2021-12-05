@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
-
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
 body{
     font-family: 'Lato', sans-serif;
-    background-color: #000;
+    background-color: #0a0a0a;
     color: #fff;
 }
 
 .carousel-item{
-    height: 80vh;
+    height: 90vh;
 }
 .border-blue{
-    border-bottom: 2px solid aqua;
+    border-bottom: 3px solid #35A1D4;
 }
 i{
     padding: 8px;
@@ -19,10 +19,10 @@ i{
 }
 .relleno{
     width: 100%;
-    background-color: aqua;
+    background-color: #35A1D4;
 }
 .bg-blue{
-    background-color: aqua;
+    background-color: #35A1D4;
 }
 .img-altura{
     height: 190px;
